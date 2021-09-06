@@ -91,13 +91,6 @@ class ProfileFragment : Fragment() {
                 {
                     if (loading != null) { loading.isDismiss() }
                     binding.user = result
-
-                  //  binding.birthDate.text = result.child.realBirthDate
-                  //  binding.birthWeight.text = result.child.grams.toString()
-                  //  binding.email.text = result.email
-                  //  binding.expectedDate.text = result.child.estimatedBirthDate
-                  //  binding.fullName.text =result.child.name
-                  //  binding.sexuality.text = result.child.sexuality
                 }
                 else{
                     if (loading != null) { loading.isDismiss() }
